@@ -8,51 +8,12 @@ use warnings;
 #1.1072.1.154 working version of AI
 #1.1072.1.371 Very good version of AutoPlay
 
-
 use Text::ANSITable;
 use Data::Dumper;
 use Switch;
 use Term::ANSIScreen qw(cls);
 use Term::ReadKey;
 my $clear_screen = cls();
-
-
-
-
-
-#my $mult = .00001;
-#my $lowest = 2;
-#my $highest = 2**32;
-#my $h = ($highest * $mult);
-#my $l = ($lowest * $mult);
-#
-#for my $sq (1 .. 16) {
-#   my $s1 = $sq;
-#   my $s2 = $sq + 1;
-#
-#   my $m1 = (2**$s1) * .02;
-#   my $m2 = (2**$s2) * .02;
-#
-#   print "$s1=>$s2 $h $l\n";
-#   print "  $m1=>$m2 $h $l\n";
-#
-##    my $m1h = abs($h**$s1);
-##    my $m2l = abs($l**$s2);
-##    print "sq: $sq m1h $m1h should be lower than m2l $m2l\n";
-#
-#
-#    #my $t1 = $m * $lowest
-#    #print "sq: $sq m:$m\n";
-##    for my $x (1 .. 16) {
-##       my $tile = 2 ** $x ;
-##       my $sum = $tile * $m;
-##       print "i:$i m:$m number:$num sum:$sum\n"
-##    }
-#}
-#
-#exit;
-
-
 
 ##DEBUG
 $Data::Dumper::Indent = 3;       # pretty print with array indices
